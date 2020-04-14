@@ -1,0 +1,152 @@
+a{
+  cursor: pointer;
+}
+div.device i.fas.custom{
+    font-size: 35px;
+      color: #97989a;
+  }
+div.device p{
+    color: #97989a;
+  }
+div.device ul{
+    transform: translate3d(0px, 26px, 0px)!important;
+    min-width: 6rem!important;
+    padding: 10px!important;
+   
+  }
+div.device ul a{
+     color: #858796!important;
+  }
+  
+  @media only screen and (max-width: 990px) {
+      
+      /* Force table to not be like tables anymore */
+      #no-more-tables table, 
+      #no-more-tables thead, 
+      #no-more-tables tbody, 
+      #no-more-tables th, 
+      #no-more-tables td, 
+      #no-more-tables tr { 
+          display: block; 
+      }
+   
+      /* Hide table headers (but not display: none;, for accessibility) */
+      #no-more-tables thead tr { 
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+   
+      #no-more-tables tr { border: 1px solid #ccc; }
+   
+      #no-more-tables td { 
+          /* Behave  like a "row" */
+          border: none;
+          border-bottom: 1px solid #eee; 
+          position: relative;
+          padding-left: 50%; 
+          white-space: normal;
+          text-align:left;
+      }
+   
+      #no-more-tables td:before { 
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 12px;
+          left: 30px;
+          width: 45%; 
+          padding-right: 10px; 
+          white-space: nowrap;
+          text-align:left;
+          font-weight: bold;
+      }
+   
+      /*
+      Label the data
+      */
+      #no-more-tables td:before { content: attr(data-title); }
+  }
+div.device button.actions{
+      border: 1px solid #97989a;
+      width: 95px;
+  }
+
+
+
+/* Blink for Webkit and others
+(Chrome, Safari, Firefox, IE, ...)
+*/
+span.blink{
+  background: green;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 0.7em;
+    margin-right: 5px;
+    text-align: center;
+    width: 0.7em; 
+    margin-right: 0;
+  }
+  span.blink.running{
+    background: green;
+  }
+  span.blink.pending{
+    background: orange;
+  }
+  span.blink.stopped{
+    background: red;
+  }
+  /* @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  span.blink{
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: alternate;
+  } */
+  div.txt-left{
+    text-align: left!important;
+  }
+  div.txt-left p{
+  font-size: 12px!important;
+  }
+  div.txt-left #terms-conditions{
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 12px!important;
+    color: #97989a;
+  }
+  div.txt-left input[type="checkbox"]{
+    position: absolute;
+    top: 3px;
+  }
+  small{
+    color: #858796;
+  }
+  .table thead th {
+    font-size: 14px!important;
+  }
+div.msg table td:nth-child(2){
+  width: 15%;
+}
+div.msg table td:nth-child(3){
+  width: 15%;
+  text-align: center!important
+}
+div.msg table td:nth-child(4){
+  width: 10%;
+}
+div.msg table td:nth-child(4){
+  width: 10%;
+}
+div.msg table td:nth-child(4){
+  width: 10%;
+}

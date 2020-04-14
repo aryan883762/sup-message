@@ -1,0 +1,175 @@
+.b-r-1{
+  border-right: 1px solid #ece8e8;
+  }
+  .topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #4e4f52;
+  }
+  .nav-link.router-link-exact-active.active{
+    color: #4e73df!important;
+  }
+  .table.b-table > thead > tr > [aria-sort="none"]{
+    background-image: none!important;
+  }
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity .3s ease;
+}
+
+.fade-leave {
+
+}
+
+.fade-leave-active {
+    transition: opacity .3s ease;
+    opacity: 0;
+}
+.btn.btn-primary{
+    color: white!important;
+}
+
+/* Flag icon on login,Register and forgot page */
+.language-dropdown.first {
+    margin-left: 39%;
+    margin-right: 10px;
+  }
+  .language-dropdown label {
+    display: block;
+    width: 50px;
+    height: 24px;
+    background: #fff;
+    padding: 0px 6px;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    border-radius: 3px;
+    z-index: 2;
+  
+    /* border-left: 4px solid #e2162c; */
+  }
+  .language-dropdown .lang-flag.lang-en .flag {
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/united_states_of_america_usa.png);
+  }
+  .language-dropdown .lang-flag.lang-zh .flag {
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/hong_kong.png);
+  }
+span.defaultCard{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    font-size: 12px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.panel.payment {
+  margin-right: 15px;
+}
+/* Responsiveness */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    .panel.payment {
+        margin-right: 24px;
+     
+      }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1098px) and (orientation: landscape) {
+    /* Payment History */
+ .changelog .container .version.badge {
+    padding: 5px!important;
+    font-size: 14px!important;
+}
+  
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+/* Payment cards list */
+
+    .payment .card{
+        height: 95px!important;
+    }
+    .card__number {
+        font-size: 7px!important;
+        padding: 10px 0 5px!important;
+        text-align: center;
+    }
+    .card__expiry-date {
+        font-size: 6px!important;
+        padding-bottom: 10px!important;
+        text-align: center;
+    }
+    .card__owner {
+        font-size: 6px;
+    }
+    .card__logo {
+        position: absolute;
+        bottom: 10px!important;
+        font-size: 6px!important;
+    }
+
+  }
